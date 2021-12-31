@@ -2,6 +2,10 @@ package classicalalgorithm;
 
 public class LookforPrimeNumber {
     //此方法在leetCode中不行
+    /*
+        给出一个数 ， 判断从0到这个数的num之间的素数的个数
+        并且打印哪个是素数哪个不是
+     */
     public  static int countPrimes(int num) {
         int count=0;
         if(num==1){
@@ -46,7 +50,7 @@ public class LookforPrimeNumber {
         int ccc=countPrimes(103);
         System.out.println(ccc);
 
-        int cc2=countPrimes2(103);
-        System.out.println(cc2);
+       /* int cc2=countPrimes2(103);
+        System.out.println(cc2);*/
     }
 }
