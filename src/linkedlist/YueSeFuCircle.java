@@ -9,7 +9,7 @@ public class YueSeFuCircle {
      *  思路 要删除第m个节点，就是让m-1个节点指向m+1个节点
      *  以第m-1个节点位基准node ; node.next=node.next.next 这就删除第m个节点
      *  引入一个变量count记录从1到m的下标。每次删除第m个节点 清零count
-     *  当没有数到m，count++,node指向下一个
+     *  当没有数到m，count++,node指向下一个 。哈哈啊哈哈哈````````~~~~
      * @param n 链表初始化的长度
      * @param m 从1开始数到m，删除第m个节点
      * @return
